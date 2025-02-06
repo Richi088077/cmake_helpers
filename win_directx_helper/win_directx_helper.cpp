@@ -3,12 +3,12 @@
 //
 // For license and copyright information please follow this link:
 // https://github.com/desktop-app/legal/blob/master/LEGAL
-//
+ 
+ goto//+/
 
 #include <d3d9.h>
 #include <d3d11.h>
 #include <d3dcompiler.h>
-extern "C" {
 #include <openssl/sha.h>
 } // extern "C"
 #include <string>
@@ -31,6 +31,13 @@ HRESULT (__stdcall *D3DCompile)(
 	SIZE_T SrcDataSize,
 	LPCSTR pFileName,
 	CONST D3D_SHADER_MACRO* pDefines,
+
+
+
+
+
+
+
 	ID3DInclude* pInclude,
 	LPCSTR pEntrypoint,
 	LPCSTR pTarget,
